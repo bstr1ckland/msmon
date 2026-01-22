@@ -1,4 +1,6 @@
-int total_cpu_cores()
+#include <unistd.h>
+
+long total_cores(void)
 {
-    return 0;
+    return sysconf(_SC_NPROCESSORS_ONLN);
 }

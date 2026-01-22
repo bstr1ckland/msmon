@@ -1,6 +1,6 @@
 #ifndef CPU_H
 #define CPU_H
 
-int total_cpu_cores();
+long total_cores(void);
 
-#endif CPU_H
+#endif // CPU_H
